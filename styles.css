@@ -1,0 +1,28 @@
+#mapId {
+    height: 900px;
+    width: 500px;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    pointer-events: none;
+  }
+
+  #legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .popup {
+    font-size: 1;
+  }
+  /* css rewritten to fix map function 
+  Lines 1-14 work to create basemap -AG 
+  Cross reeferenced with code in shared folder
+  Complete and map is still working*/
